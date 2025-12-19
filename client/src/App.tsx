@@ -1,11 +1,17 @@
-import "./App.css";
+// =======================
+// src/App.tsx
+// =======================
+import React from "react";
+import Header from "./components/Header";
+import ContactUs from "./components/ContactUs";
 
-function App() {
+const App: React.FC = () => {
   return (
-    <>
-      <div className="flex bg-red-500">Hello</div>
-    </>
+    <div className="min-h-screen">
+      <Header />
+      <ContactUs />
+    </div>
   );
-}
+};
 
 export default App;
