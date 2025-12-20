@@ -1,4 +1,4 @@
-# CompanyWebsite (RealTrust)
+# RealTrust Website
 
 ## API Documentation
 
@@ -8,10 +8,10 @@
 
 #### Get All Clients
 
-*   **Method:** `GET`
-*   **Description:** Retrieves a list of all clients.
-*   **Response Body:** `application/json`
-*   **Example:**
+-   **Method:** `GET`
+-   **Description:** Retrieves a list of all clients.
+-   **Response Body:** `application/json`
+-   **Example:**
     ```json
     [
         {
@@ -25,14 +25,14 @@
 
 #### Add a New Client
 
-*   **Method:** `POST`
-*   **Description:** Adds a new client to the database.
-*   **Request Body:** `application/json`
-    *   `name` (string): The name of the client.
-    *   `designation` (string): The client's designation or title.
-    *   `description` (string): A brief description of the client.
-    *   `imageUrl` (string): The URL of the client's image.
-*   **Example:**
+-   **Method:** `POST`
+-   **Description:** Adds a new client to the database.
+-   **Request Body:** `application/json`
+    -   `name` (string): The name of the client.
+    -   `designation` (string): The client's designation or title.
+    -   `description` (string): A brief description of the client.
+    -   `imageUrl` (string): The URL of the client's image.
+-   **Example:**
     ```json
     {
         "name": "Jane Smith",
@@ -48,10 +48,10 @@
 
 #### Get All Contacts
 
-*   **Method:** `GET`
-*   **Description:** Retrieves a list of all contacts.
-*   **Response Body:** `application/json`
-*   **Example:**
+-   **Method:** `GET`
+-   **Description:** Retrieves a list of all contacts.
+-   **Response Body:** `application/json`
+-   **Example:**
     ```json
     [
         {
@@ -65,14 +65,14 @@
 
 #### Submit a New Contact
 
-*   **Method:** `POST`
-*   **Description:** Submits a new contact form entry.
-*   **Request Body:** `application/json`
-    *   `fullName` (string): The full name of the contact person.
-    *   `email` (string): The email address of the contact.
-    *   `mobile` (string): The mobile phone number.
-    *   `city` (string): The city where the contact resides.
-*   **Example:**
+-   **Method:** `POST`
+-   **Description:** Submits a new contact form entry.
+-   **Request Body:** `application/json`
+    -   `fullName` (string): The full name of the contact person.
+    -   `email` (string): The email address of the contact.
+    -   `mobile` (string): The mobile phone number.
+    -   `city` (string): The city where the contact resides.
+-   **Example:**
     ```json
     {
         "fullName": "Samuel Green",
@@ -88,10 +88,10 @@
 
 #### Get All Projects
 
-*   **Method:** `GET`
-*   **Description:** Retrieves a list of all projects.
-*   **Response Body:** `application/json`
-*   **Example:**
+-   **Method:** `GET`
+-   **Description:** Retrieves a list of all projects.
+-   **Response Body:** `application/json`
+-   **Example:**
     ```json
     [
         {
@@ -104,13 +104,13 @@
 
 #### Add a New Project
 
-*   **Method:** `POST`
-*   **Description:** Adds a new project to the database.
-*   **Request Body:** `application/json`
-    *   `name` (string): The name of the project.
-    *   `description` (string): A brief description of the project.
-    *   `imageUrl` (string): The URL of the project's image.
-*   **Example:**
+-   **Method:** `POST`
+-   **Description:** Adds a new project to the database.
+-   **Request Body:** `application/json`
+    -   `name` (string): The name of the project.
+    -   `description` (string): A brief description of the project.
+    -   `imageUrl` (string): The URL of the project's image.
+-   **Example:**
     ```json
     {
         "name": "Project Beta",
@@ -125,10 +125,10 @@
 
 #### Get All Subscriptions
 
-*   **Method:** `GET`
-*   **Description:** Retrieves a list of all email subscriptions.
-*   **Response Body:** `application/json`
-*   **Example:**
+-   **Method:** `GET`
+-   **Description:** Retrieves a list of all email subscriptions.
+-   **Response Body:** `application/json`
+-   **Example:**
     ```json
     [
         {
@@ -139,14 +139,13 @@
 
 #### Subscribe to Newsletter
 
-*   **Method:** `POST`
-*   **Description:** Adds a new email to the subscription list.
-*   **Request Body:** `application/json`
-    *   `email` (string): The email address to subscribe.
-*   **Example:**
+-   **Method:** `POST`
+-   **Description:** Adds a new email to the subscription list.
+-   **Request Body:** `application/json`
+    -   `email` (string): The email address to subscribe.
+-   **Example:**
     ```json
     {
         "email": "new.subscriber@example.com"
     }
     ```
-
