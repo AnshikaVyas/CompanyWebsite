@@ -9,6 +9,8 @@ import WhyChooseUs from "./components/WhyChooseUs";
 import AboutUs from "./components/AboutUs";
 import Footer from "./components/Footer";
 import Subscription from "./components/Subscription";
+import OurProjects from "./components/OurProjects";
+import HappyClients from "./components/HappyClients";
 
 const App: React.FC = () => {
   return (
@@ -18,6 +20,8 @@ const App: React.FC = () => {
       <WhyChooseUs />
       <Average />
       <AboutUs />
+      <OurProjects />
+      <HappyClients />
       <Subscription />
       <Footer />
     </div>
