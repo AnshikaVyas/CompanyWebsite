@@ -55,7 +55,7 @@ const ContactUs: React.FC = () => {
                 {/* LEFT SIDE - IMAGE + TEXT */}
                 <div>
                     <img
-                        src="/contact-us.jpg"
+                        src="/images/contact-us.jpg"
                         alt="Contact Us"
                         className="w-full max-w-md mb-6 rounded-lg shadow-md"
                     />
